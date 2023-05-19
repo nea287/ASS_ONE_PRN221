@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ass_One_PRN221.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ass_One_PRN221"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <Grid Margin="81,44,82,43">
+            <TextBox x:Name="txt_ID" HorizontalAlignment="Center" Margin="0,64,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Width="533" Height="49" SelectionTextBrush="#FFEFEFEF" Foreground="#FFABADB3"/>
+            <TextBox x:Name="txt_Password" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="533" Height="49" Margin="0,136,0,0" Foreground="#FFABADB3" TextChanged="txt_Password_TextChanged"/>
+        </Grid>
+
+    </Grid>
+</Window>
