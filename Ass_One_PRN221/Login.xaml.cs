@@ -23,5 +23,25 @@ namespace Ass_One_PRN221
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void txt_ID_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txt_Password_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

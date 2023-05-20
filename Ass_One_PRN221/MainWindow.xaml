@@ -7,14 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <!--<DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="DataGrid_SelectionChanged"/>-->
-        <DataGrid Name="dgCarList" AutoGenerateColumns="False" SelectionChanged="dgCarList_SelectionChanged" Loaded="dgCarList_Loaded" >
-            <DataGrid.Columns>
-                <DataGridTextColumn Width="*" Header="Car Name" Binding="{Binding CarName}"/>
-                <DataGridTextColumn Width="*" Header="Color" Binding="{Binding Color}"/>
-                <DataGridTextColumn Width="*" Header="Brand" Binding="{Binding Brand}"/>
-            </DataGrid.Columns>
-        </DataGrid>
+
 
     </Grid>
 </Window>
