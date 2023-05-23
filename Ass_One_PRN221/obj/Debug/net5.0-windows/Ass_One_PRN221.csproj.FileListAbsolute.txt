@@ -22,3 +22,7 @@ C:\Users\Nea\source\repos\Ass_One_PRN221\Ass_One_PRN221\obj\Debug\net5.0-windows
 C:\Users\Nea\source\repos\Ass_One_PRN221\Ass_One_PRN221\obj\Debug\net5.0-windows\Ass_One_PRN221.pdb
 C:\Users\Nea\source\repos\Ass_One_PRN221\Ass_One_PRN221\obj\Debug\net5.0-windows\Ass_One_PRN221.genruntimeconfig.cache
 C:\Users\Nea\source\repos\Ass_One_PRN221\Ass_One_PRN221\obj\Debug\net5.0-windows\ref\Ass_One_PRN221.dll
+C:\Users\Nea\source\repos\Ass_One_PRN221\Ass_One_PRN221\obj\Debug\net5.0-windows\Theme\MenuButtonTheme.baml
+C:\Users\Nea\source\repos\Ass_One_PRN221\Ass_One_PRN221\obj\Debug\net5.0-windows\Theme\TexboxTheme.baml
+C:\Users\Nea\source\repos\Ass_One_PRN221\Ass_One_PRN221\obj\Debug\net5.0-windows\App.baml
+C:\Users\Nea\source\repos\Ass_One_PRN221\Ass_One_PRN221\obj\Debug\net5.0-windows\Theme\GridTheme.baml

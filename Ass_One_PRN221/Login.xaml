@@ -6,72 +6,76 @@
         xmlns:local="clr-namespace:Ass_One_PRN221"
         mc:Ignorable="d"
         Title="Login" Height="450" Width="800">
-    <Grid Height="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+    <Grid Height="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Grid.Background>
             <ImageBrush ImageSource="/background1.jpg"/>
         </Grid.Background>
-        <Grid Background="WhiteSmoke"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="291">
-            <Border Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="2">
-                <StackPanel Margin="10">
+        <Border Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="2" CornerRadius="20"   VerticalAlignment="Center" HorizontalAlignment="Center" Height="291" >
+            <StackPanel Margin="10">
+                <Grid Background="WhiteSmoke"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="291" >
 
-                </StackPanel>
-            </Border>
-            <TextBox Margin="52,46,52,0" TextChanged="TextBox_TextChanged" VerticalAlignment="Top" Height="40">
-                <TextBox.Style>
-                    <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
-                        <Style.Resources>
-                            <VisualBrush x:Key="CueBannerBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
-                                <VisualBrush.Visual>
-                                    <Label Content="Username" Foreground="LightGray"/>
-                                </VisualBrush.Visual>
+                    <!--<Border Margin="52,46,52,0" VerticalAlignment="Top" Height="40" CornerRadius="20">
+                        
+                    </Border>-->
+                    <TextBox Margin="52,46,52,0" TextChanged="TextBox_TextChanged" VerticalAlignment="Top" Height="40">
+                        <TextBox.Style>
+                            <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                                <Style.Resources>
+                                    <VisualBrush x:Key="CueBannerBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
+                                        <VisualBrush.Visual>
+                                            <Label Content="Username" Foreground="LightGray"/>
+                                        </VisualBrush.Visual>
 
-                            </VisualBrush>
+                                    </VisualBrush>
 
-                        </Style.Resources>
-                        <Style.Triggers>
-                            <Trigger Property="Text" Value="{x:Static sys:String.Empty}">
-                                <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
-                            </Trigger>
-                            <Trigger Property="Text" Value="{x:Null}">
-                                <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
-                            </Trigger>
-                            <Trigger Property="IsKeyboardFocused" Value="True">
-                                <Setter Property="Background" Value="White" />
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </TextBox.Style>
-            </TextBox>
-            <TextBox Margin="52,95,52,0" TextChanged="TextBox_TextChanged" VerticalAlignment="Top" Height="40" RenderTransformOrigin="0.496,0.538">
-                <TextBox.Style>
-                    <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
-                        <Style.Resources>
-                            <VisualBrush x:Key="CueBannerBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
-                                <VisualBrush.Visual>
-                                    <Label Content="Password" Foreground="LightGray"/>
-                                </VisualBrush.Visual>
+                                </Style.Resources>
+                                <Style.Triggers>
+                                    <Trigger Property="Text" Value="{x:Static sys:String.Empty}" >
+                                        <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                                    </Trigger>
+                                    <Trigger Property="Text" Value="{x:Null}">
+                                        <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                                    </Trigger>
+                                    <Trigger Property="IsKeyboardFocused" Value="True">
+                                        <Setter Property="Background" Value="White" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBox.Style>
+                    </TextBox>
+                    <TextBox Margin="52,95,52,0" TextChanged="TextBox_TextChanged" VerticalAlignment="Top" Height="40" RenderTransformOrigin="0.496,0.538">
+                        <TextBox.Style>
+                            <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                                <Style.Resources>
+                                    <VisualBrush x:Key="CueBannerBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
+                                        <VisualBrush.Visual>
+                                            <Label Content="Password" Foreground="LightGray"/>
+                                        </VisualBrush.Visual>
 
-                            </VisualBrush>
+                                    </VisualBrush>
 
-                        </Style.Resources>
-                        <Style.Triggers>
-                            <Trigger Property="Text" Value="{x:Static sys:String.Empty}">
-                                <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
-                            </Trigger>
-                            <Trigger Property="Text" Value="{x:Null}">
-                                <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
-                            </Trigger>
-                            <Trigger Property="IsKeyboardFocused" Value="True">
-                                <Setter Property="Background" Value="White" />
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </TextBox.Style>
-            </TextBox>
-            <Button Content="Login" HorizontalAlignment="Right" Margin="468,0,50,50" VerticalAlignment="Bottom" Width="116" Height="38" Background="#007BA7" Foreground="White" Click="Button_Click"/>
-            <Button Content="Reset" HorizontalAlignment="Right" Margin="0,0,171,50" VerticalAlignment="Bottom" Width="116" Height="38" Background="#FFD700" Click="Button_Click"/>
+                                </Style.Resources>
+                                <Style.Triggers>
+                                    <Trigger Property="Text" Value="{x:Static sys:String.Empty}">
+                                        <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                                    </Trigger>
+                                    <Trigger Property="Text" Value="{x:Null}">
+                                        <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                                    </Trigger>
+                                    <Trigger Property="IsKeyboardFocused" Value="True">
+                                        <Setter Property="Background" Value="White" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBox.Style>
+                    </TextBox>
+                    <Button Content="Login" HorizontalAlignment="Right" Margin="468,0,50,50" VerticalAlignment="Bottom" Width="116" Height="38" Background="#007BA7" Foreground="White" Click="Button_Click"/>
+                    <Button Content="Reset" HorizontalAlignment="Right" Margin="0,0,171,50" VerticalAlignment="Bottom" Width="116" Height="38" Background="#FFD700" Click="Button_Click"/>
 
-        </Grid>
-
+                </Grid>
+            </StackPanel>
+        </Border>
     </Grid>
+ 
+
 </Window>

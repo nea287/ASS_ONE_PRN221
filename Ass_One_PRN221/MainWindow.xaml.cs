@@ -25,8 +25,9 @@ namespace Ass_One_PRN221
             InitializeComponent();
         }
 
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
-
-
+        }
     }
 }

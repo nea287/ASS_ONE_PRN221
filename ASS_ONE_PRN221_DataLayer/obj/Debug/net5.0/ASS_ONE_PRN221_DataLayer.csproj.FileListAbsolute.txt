@@ -1,0 +1,15 @@
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\bin\Debug\net5.0\ASS_ONE_PRN221_DataLayer.deps.json
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\bin\Debug\net5.0\ASS_ONE_PRN221_DataLayer.runtimeconfig.json
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\bin\Debug\net5.0\ASS_ONE_PRN221_DataLayer.runtimeconfig.dev.json
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\bin\Debug\net5.0\ASS_ONE_PRN221_DataLayer.dll
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\bin\Debug\net5.0\ASS_ONE_PRN221_DataLayer.pdb
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\ASS_ONE_PRN221_DataLayer.csproj.AssemblyReference.cache
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\ASS_ONE_PRN221_DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\ASS_ONE_PRN221_DataLayer.AssemblyInfoInputs.cache
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\ASS_ONE_PRN221_DataLayer.AssemblyInfo.cs
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\ASS_ONE_PRN221_DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\ASS_ONE_PRN221_DataLayer.dll
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\refint\ASS_ONE_PRN221_DataLayer.dll
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\ASS_ONE_PRN221_DataLayer.pdb
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\ASS_ONE_PRN221_DataLayer.genruntimeconfig.cache
+C:\Users\Nea\source\repos\Ass_One_PRN221\ASS_ONE_PRN221_DataLayer\obj\Debug\net5.0\ref\ASS_ONE_PRN221_DataLayer.dll
