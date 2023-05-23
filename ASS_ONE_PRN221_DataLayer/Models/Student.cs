@@ -21,7 +21,9 @@ namespace ASS_ONE_PRN221_DataLayer.Models
         public string StudentPhone { get; set; }
         public string StudentMail { get; set; }
         public int? Status { get; set; }
+        public int? AccountId { get; set; }
 
+        public virtual Account Account { get; set; }
         public virtual Class ClassCodeNavigation { get; set; }
         public virtual ICollection<Attendance> Attendances { get; set; }
         public virtual ICollection<Enrollment> Enrollments { get; set; }

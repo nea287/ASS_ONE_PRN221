@@ -19,7 +19,12 @@ namespace ASS_ONE_PRN221_DataLayer.Models
         public string ClassCode { get; set; }
         public string CourseCode { get; set; }
         public int? Status { get; set; }
+        public int? AccountId { get; set; }
+        public string Phone { get; set; }
+        public string Mail { get; set; }
+        public string TeacherAddress { get; set; }
 
+        public virtual Account Account { get; set; }
         public virtual Class ClassCodeNavigation { get; set; }
         public virtual Course CourseCodeNavigation { get; set; }
         public virtual ICollection<Grade> Grades { get; set; }

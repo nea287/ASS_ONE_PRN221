@@ -17,6 +17,7 @@ namespace ASS_ONE_PRN221_DataLayer.Models
         {
         }
 
+        public virtual DbSet<Account> Accounts { get; set; }
         public virtual DbSet<Attendance> Attendances { get; set; }
         public virtual DbSet<Class> Classes { get; set; }
         public virtual DbSet<Course> Courses { get; set; }
@@ -39,6 +40,17 @@ namespace ASS_ONE_PRN221_DataLayer.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasAnnotation("Relational:Collation", "Vietnamese_CI_AS");
+
+            modelBuilder.Entity<Account>(entity =>
+            {
+                entity.ToTable("Account");
+
+                entity.Property(e => e.AccountId).HasColumnName("AccountID");
+
+                entity.Property(e => e.Password).HasMaxLength(100);
+
+                entity.Property(e => e.Username).HasMaxLength(50);
+            });
 
             modelBuilder.Entity<Attendance>(entity =>
             {
@@ -187,6 +199,8 @@ namespace ASS_ONE_PRN221_DataLayer.Models
 
                 entity.Property(e => e.StudentCode).HasMaxLength(50);
 
+                entity.Property(e => e.AccountId).HasColumnName("AccountID");
+
                 entity.Property(e => e.ClassCode).HasMaxLength(50);
 
                 entity.Property(e => e.StudentAddress).HasMaxLength(500);
@@ -196,6 +210,11 @@ namespace ASS_ONE_PRN221_DataLayer.Models
                 entity.Property(e => e.StudentName).HasMaxLength(200);
 
                 entity.Property(e => e.StudentPhone).HasMaxLength(13);
+
+                entity.HasOne(d => d.Account)
+                    .WithMany(p => p.Students)
+                    .HasForeignKey(d => d.AccountId)
+                    .HasConstraintName("FK_Student_Account");
 
                 entity.HasOne(d => d.ClassCodeNavigation)
                     .WithMany(p => p.Students)
@@ -211,13 +230,26 @@ namespace ASS_ONE_PRN221_DataLayer.Models
 
                 entity.Property(e => e.TeacherCode).HasMaxLength(50);
 
+                entity.Property(e => e.AccountId).HasColumnName("AccountID");
+
                 entity.Property(e => e.Address).HasMaxLength(500);
 
                 entity.Property(e => e.ClassCode).HasMaxLength(50);
 
                 entity.Property(e => e.CourseCode).HasMaxLength(50);
 
+                entity.Property(e => e.Mail).HasMaxLength(150);
+
+                entity.Property(e => e.Phone).HasMaxLength(13);
+
+                entity.Property(e => e.TeacherAddress).HasMaxLength(500);
+
                 entity.Property(e => e.TeacherName).HasMaxLength(200);
+
+                entity.HasOne(d => d.Account)
+                    .WithMany(p => p.Teachers)
+                    .HasForeignKey(d => d.AccountId)
+                    .HasConstraintName("FK_Teacher_Account");
 
                 entity.HasOne(d => d.ClassCodeNavigation)
                     .WithMany(p => p.Teachers)
