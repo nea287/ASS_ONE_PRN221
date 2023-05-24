@@ -26,7 +26,7 @@ namespace ASS_ONE_PRN221_BusinessLayer.ViewModels
         public string Mail { get; set; }
         public string TeacherAddress { get; set; }
 
-        public virtual AccountViewModel Account { get; set; }
+        //public virtual AccountViewModel Account { get; set; }
         public virtual ClassViewModel ClassCodeNavigation { get; set; }
         public virtual CourseViewModel CourseCodeNavigation { get; set; }
         public virtual ICollection<GradeViewModel> Grades { get; set; }

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ass_One_PRN221", "Ass_One_PRN221\Ass_One_PRN221.csproj", "{ECFBDABD-1FA7-41DE-AD08-A40FB2DAA73A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ass_One_PRN221", "Ass_One_PRN221\Ass_One_PRN221.csproj", "{ECFBDABD-1FA7-41DE-AD08-A40FB2DAA73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASS_ONE_PRN221_BusinessLayer", "ASS_ONE_PRN221_BusinessLayer\ASS_ONE_PRN221_BusinessLayer.csproj", "{8AAC8DA7-C419-40EA-8334-AA72A9B8C2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASS_ONE_PRN221_DataLayer", "ASS_ONE_PRN221_DataLayer\ASS_ONE_PRN221_DataLayer.csproj", "{243DA0CD-7AFD-4E9D-9F9C-D3EE196D8E97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{ECFBDABD-1FA7-41DE-AD08-A40FB2DAA73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECFBDABD-1FA7-41DE-AD08-A40FB2DAA73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECFBDABD-1FA7-41DE-AD08-A40FB2DAA73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AAC8DA7-C419-40EA-8334-AA72A9B8C2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAC8DA7-C419-40EA-8334-AA72A9B8C2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAC8DA7-C419-40EA-8334-AA72A9B8C2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAC8DA7-C419-40EA-8334-AA72A9B8C2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243DA0CD-7AFD-4E9D-9F9C-D3EE196D8E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243DA0CD-7AFD-4E9D-9F9C-D3EE196D8E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243DA0CD-7AFD-4E9D-9F9C-D3EE196D8E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243DA0CD-7AFD-4E9D-9F9C-D3EE196D8E97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

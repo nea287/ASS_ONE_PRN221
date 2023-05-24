@@ -25,7 +25,7 @@ namespace ASS_ONE_PRN221_BusinessLayer.ViewModels
         public string StudentMail { get; set; }
         public int? Status { get; set; }
         public int? AccountId { get; set; }
-        public virtual AccountViewModel Account { get; set; }
+        //public virtual AccountViewModel Account { get; set; }
         public virtual ClassViewModel ClassCodeNavigation { get; set; }
         public virtual ICollection<AttendanceViewModel> Attendances { get; set; }
         public virtual ICollection<EnrollmentViewModel> Enrollments { get; set; }
